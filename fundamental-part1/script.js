@@ -1,4 +1,2 @@
 let js = "amazing";
-if (js === "amazing") alert("JS is FUN!!!");
-
-console.log(2 + 3 + 444 - 55);
+if (js === "amazing") console.log(2 + 3 + 444 - 55);
