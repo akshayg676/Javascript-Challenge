@@ -1,7 +1,7 @@
 const country = "India";
 const continent = "Asia";
 let population = 4;
-population++;
+// population++;
 const finlandPopulation = 6;
 const averagePopulation = 33;
 let countryFirstHalf = 2;
@@ -17,6 +17,14 @@ const description = `${country} is in ${continent}, and it's ${population} milli
 // console.log(typeof isIsland);
 // console.log(typeof language);
 // console.log(country, continent, population);
-console.log(population > finlandPopulation);
-console.log(population < averagePopulation);
-console.log(description);
+// console.log(population > finlandPopulation);
+// console.log(population < averagePopulation);
+// console.log(description);
+
+if (population > 33) {
+  console.log(`${country}'s population is above average`);
+} else {
+  console.log(
+    `${country}'s population is  ${33 - population} million below average`
+  );
+}
