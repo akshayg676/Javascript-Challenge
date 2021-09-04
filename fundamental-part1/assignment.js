@@ -9,14 +9,8 @@ let countrySecondHalf = 2;
 const isIsland = false;
 let language;
 language = "Hindi";
-const description =
-  country +
-  " is in " +
-  continent +
-  " , and its " +
-  population +
-  " million people speak " +
-  language;
+
+const description = `${country} is in ${continent}, and it's ${population} million people speak ${language}`;
 
 // console.log(typeof country);
 // console.log(typeof population);
