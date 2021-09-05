@@ -11,3 +11,20 @@ const johnBMI = johnWeight / johnHeight ** 2;
 // } else {
 //   console.log(`john's BMI ${johnBMI} is higher than mark's ${markBMI}`);
 // }
+
+//challenge2
+
+const minScore = 100;
+const dolphinsAverage = (97 + 112 + 101) / 3;
+const koalasAverage = (109 + 95 + 106) / 3;
+if (dolphinsAverage < koalasAverage && koalasAverage >= minScore)
+  console.log("koala wins");
+else if (dolphinsAverage > koalasAverage && dolphinsAverage >= minScore)
+  console.log("Dolphin wins");
+else if (
+  dolphinsAverage === koalasAverage &&
+  dolphinsAverage >= 100 &&
+  koalasAverage >= 100
+)
+  console.log("Tie");
+else console.log("No one wins");
